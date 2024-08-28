@@ -1,0 +1,52 @@
+/* Setting the container width and height */
+.container {
+  height: 100%; /* Full height of the parent element */
+  width: 200px; /* Fixed width of 200px */
+  border: 1px solid grey; /* Grey border around the container */
+}
+
+/* Styling the checkbox container */
+.checkbox-container {
+  max-height: 100px; /* Maximum height of 100px */
+  max-width: 100%; /* Maximum width of 100% of the parent element */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border: 1px solid #ccc; /* Light grey border for better visibility */
+  padding: 10px; /* Padding inside the container for spacing */
+}
+
+/* Setting the filter icon size */
+.icon {
+  height: 14px; /* Fixed height of 14px */
+  font-size: 1.19em; /* Font size of 1.19em */
+  margin-block-start: 1em; /* Margin at the start of the block */
+  margin-block-end: 1em; /* Margin at the end of the block */
+  margin-inline-start: 0px; /* No margin at the start of the inline */
+  margin-inline-end: 0px; /* No margin at the end of the inline */
+  padding-right: 6px; /* Padding on the right side */
+}
+
+/* Display the heading and filter icon in flex */
+.heading {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  height: 40px; /* Fixed height of 40px */
+  width: 200px; /* Fixed width of 200px */
+  border-bottom: 1px solid grey; /* Grey border at the bottom */
+}
+
+/* Additional padding for the heading paragraph */
+.heading.p {
+  padding-left: 6px; /* Padding on the left side */
+}
+
+/* CSS for the searchState input */
+.searchStates {
+  margin: 4px; /* Margin around the input */
+}
+
+/* CSS for managing searchText */
+.searchText {
+  height: 25px; /* Fixed height of 25px */
+  width: 170px; /* Fixed width of 170px */
+  font-size: 13px; /* Font size of 13px */
+}
